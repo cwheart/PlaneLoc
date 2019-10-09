@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">飞行轨迹</string>
+    <string name="action_settings">设置</string>
+    <string name="plane_no">呼号</string>
+    <string name="tail_no">尾号</string>
+    <string name="host">服务器</string>
+    <string name="plane_loc">位置</string>
+    <string name="plane_height">高度</string>
+    <string name="plane_presure">气压</string>
+    <string name="title_plane_no">航班编号</string>
+    <string name="title_activity_login">Setting</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">保存</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">呼号不正确</string>
+    <string name="invalid_password">尾号不正确</string>
+    <string name="invalid_host">主机不正确</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="save_success">"设置成功"</string>
+    <string name="error_permission_map">permission error</string>
+    <string name="loading">Loading...</string>
+</resources>
