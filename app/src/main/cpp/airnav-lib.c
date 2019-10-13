@@ -76,7 +76,7 @@ void set_short_int(unsigned char buf[], short int data, int start) {
 
 // 4个字节
 int set_acFs(unsigned char uacBuff[]) {
-    char acFs[6];
+    char acFs[4];
     int j;
     unsigned short int iFsLen = 0;
     BIT_SET(acFs[0], 4); // 经维度 130
@@ -89,7 +89,7 @@ int set_acFs(unsigned char uacBuff[]) {
     BIT_SET(acFs[1], 0);
 //    BIT_SET(acFs[2], 0);
 //    BIT_SET(acFs[3], 0);
-    for(j=0;j<6;j++) {
+    for(j=0;j<4;j++) {
         if(acFs[j]>0) {
             uacBuff[3 + j] = acFs[j];
             iFsLen = iFsLen + 1;
